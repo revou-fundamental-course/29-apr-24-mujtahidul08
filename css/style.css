@@ -1,0 +1,160 @@
+/* ini css */
+
+.container{
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content:center;
+    padding: 10px 15px 10px 15px;
+}
+.container>button{
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+}  
+.container>img{
+    height: 50px;
+    width: 50px;
+    margin-right: auto;
+}
+
+header>h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+header>h2{
+    text-align: center;
+    font-size:medium;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 70;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+    height: auto;
+  }
+.testimoni {
+    flex: 55%;
+    border: 1px solid #EDF0F4;
+    background-color: #EDF0F4;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+.testimoni>header>img {
+    height: 800%;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+.profil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.profil>img{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+}
+.profilnama{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.profilnama>h3{
+    font-size:medium;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;   
+    padding: 5px;
+    margin: 0px;
+}
+.profilnama>h4{
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 50;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-us {
+    padding: 10px;
+    flex: 45%;
+    background-color: #EDF0F4;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+.contact-us>header>h2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: black;
+    font-weight:bold;
+    padding: 0px;
+}
+
+.contact-us>header>h3 {
+    text-align: center;
+    font-size:small;
+    font-family: sans-serif;
+    color: black;
+    font-weight:bold;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  section>h1 {
+    background-color: #EDF0F4;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+}
